@@ -1,6 +1,6 @@
 import random
 f = open('in/simple_data.in','w')
-test_group = 10
+test_group = 30
 maxint = 30
 test_len = 20
 op = ['+','-','*','/']

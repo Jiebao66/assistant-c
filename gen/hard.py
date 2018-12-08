@@ -74,7 +74,7 @@ def exp():
         
 def main():
     f = open('in/hard_data.in','w')
-    for i in range(20):
+    for i in range(30):
         aline = exp()
         try:
             eval(aline)

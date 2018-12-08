@@ -1,6 +1,6 @@
 
 import random
-f = open('../in/middle_data.in','w')
+f = open('in/middle_data.in','w')
 test_group = 10
 maxint = 30
 minInt = -10
@@ -18,5 +18,10 @@ while test_group>0:
             num = str(num)
         data += num+op[random.randint(0,3)]
     data += str(random.randint(1,maxint))
+    exp = data
+    try:
+        eval(exp)
+    except ZeroDivisionError:
+        exp = '0*0+(-2)*3+0*(-1)+0/3'
     f.write(data+'\n')
     test_group -= 1

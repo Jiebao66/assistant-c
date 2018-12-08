@@ -73,9 +73,14 @@ def exp():
 
         
 def main():
-    f = open('../in/hard_data.in','w')
+    f = open('in/hard_data.in','w')
     for i in range(20):
-        f.write(exp()+'\n')
+        aline = exp()
+        try:
+            eval(aline)
+        except ZeroDivisionError:
+            aline = '(0+0)*0/2'
+        f.write(aline+'\n')
 
 
 if __name__ == '__main__':

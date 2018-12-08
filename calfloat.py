@@ -4,8 +4,8 @@ gfw2 = ['out/float/simple_data.out','out/float/middle_data.out','out/float/hard_
 
 def cal(fr,fw):
     for line in fr:
-        ans = str(eval(line)) 
-        fw.write(ans+'\n')
+        ans = str(eval(line))+' = '+line
+        fw.write(ans)
 
 def main():
     for i in range(3):

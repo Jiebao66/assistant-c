@@ -1,6 +1,6 @@
 
 import random
-f = open('in/middle_data.in','w')
+f = open('data/in/middle_data.in','w')
 test_group = 30
 maxint = 30
 minInt = -10

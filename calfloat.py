@@ -1,6 +1,6 @@
-gfr  = ['in/simple_data.in','in/middle_data.in','in/hard_data.in']
-gfw1 = ['out/int/simple_data.out','out/int/middle_data.out','out/int/hard_data.out']
-gfw2 = ['out/float/simple_data.out','out/float/middle_data.out','out/float/hard_data.out']
+gfr  = ['data/in/simple_data.in','data/in/middle_data.in','data/in/hard_data.in']
+gfw1 = ['data/out/int/simple_data.out','data/out/int/middle_data.out','data/out/int/hard_data.out']
+gfw2 = ['data/out/float/simple_data.out','data/out/float/middle_data.out','data/out/float/hard_data.out']
 
 def cal(fr,fw):
     for line in fr:

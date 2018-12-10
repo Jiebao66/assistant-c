@@ -1,5 +1,5 @@
 import random
-f = open('in/simple_data.in','w')
+f = open('data/in/simple_data.in','w')
 test_group = 30
 maxint = 30
 test_len = 20
